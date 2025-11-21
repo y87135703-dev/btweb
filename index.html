@@ -15,6 +15,23 @@
     }
     html{font-family: 'Pyidaungsu', sans-serif;}
     body{font-size: 20px;}
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        text-decoration: none;
+        
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right:20px;
+        width: 96.8%;
+        box-shadow: 0 0 0px 8px #aacdff;
+        
+    }
+    a {
+        text-decoration: none;
+    }
 
     #intro{
         margin-left: 150px;
@@ -59,13 +76,24 @@
     </style>
 </head>
 <body>
+    <div id="nav">
+        <a href="#intro">Introduce</a>
+        <a href="#exp6">Experiment of Reflection By A Plane Mirror</a>
+        <a href="#exp7">Experiment of The Concave Mirror</a>
+        <a href="#truefalse">Quiz(True/False Question)</a>
+        <a href="#ref">Reference</a>
+    </div>
+
+    <br>
+    <br>
+
     <div id="intro">
         <h1 style="text-align: center;padding-top: 20px;">Introduce</h1>
         <h3>
             <ul>
                 <li>Author:Min Tun Soe & Bhome Myat Thwim</li>
                 <li>Grade:Grade-10</li>
-                <li>School:Brigth Tun</li>
+                <li>School:Bright Tun</li>
                 <li>Project Technology:HTML,CSS,JavaScript</li>
                 <li>Project About:Experiment of Mirror</li>
             </ul>
@@ -162,7 +190,7 @@
         detailTag("exp7", "Apparatus", "<ul><li>optical bench</li><li>search pins</li><li>concave mirror fixed on stand</li><li>white paper (screen)</li><li>metre stick</li></ul>");
         detailTag("exp7", "Theory", `<p>A concave mirror can produce a real image of a distant object (at infinity) as shown in Figure 1. The position of image is considered as a focus of concave mirror and hence, the distance from the mirror to this image is approximately equal to focal length of the concave mirror. Therefore, it has a real focus. Hence, the focal length of a concave mirror is positive.</p><p>Further, a concave mirror can produce both types of images real as well as virtual, depending upon the object position. The position, nature and size of the image may be predicted by drawing ray diagrams. If the object is placed at the center of curvature of the concave mirror, its image is formed at the center of curvature as shown in Figure 2. The set of points on the principal axis of a concave mirror where the position of the object and the image can be interchanged are called conjugate foci.</p><br><div style="margin-left: 80px;"><img src="image.png" width="700" height="400"></div>`);
         detailTag("exp7", "Procedure", `<ol><li>Hold the mirror towards distant object, a tree (or) a building and adjust a white paper (screen) in front of it to get a sharp image on the screen.</li><li>Measure the distance between the mirror and the screen.</li><li>Repeat the above procedure three times.</li><li>Place the mirror on the optical bench and put the object pin twice the approximate focal length in front of the mirror.</li><li>Adjust the position of the object pin, so that the image in the mirror was no parallax with object pin (Object pin is also used as search pin and object pin and its image in the mirror are coincided each other).</li><li>Measure the distance of the pin from the mirror.</li><li>Repeat that experiment three times.</li><li>The distance of the pin from the mirror</li><li>Compare the focal length obtained from conjugate foci method and the focal approximate length.</li></ol><div style="color: red;"><h4>Warning</h4><ul><li>The parallax error must be avoided.</li><li>The mirror and the pin must be upright.</li></ul></div>`);
-        
+
     </script> 
 </body>
 </html>
